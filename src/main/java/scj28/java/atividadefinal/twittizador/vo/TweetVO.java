@@ -5,12 +5,13 @@ import java.time.LocalDate;
 import scj28.java.atividadefinal.twittizador.enumeration.TipoDeOrdenacao;
 
 public class TweetVO {
+
 	private String hashTag;
-	
+
 	private LocalDate dataInicio;
-	
+
 	private LocalDate dataAgora;
-	
+
 	private TipoDeOrdenacao tipoDeOrdenacao;
 
 	public TipoDeOrdenacao getTipoDeOrdenacao() {
