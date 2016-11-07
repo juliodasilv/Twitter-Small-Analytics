@@ -8,6 +8,7 @@ import scj28.java.atividadefinal.twittizador.vo.TweetVO;
 import twitter4j.TwitterException;
 
 public class Twittizador {
+
 	private TweetVO tweetVO = new TweetVO();
 
 	public Twittizador(String hashTag, LocalDate dataInicio) {
