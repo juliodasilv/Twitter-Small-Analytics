@@ -11,13 +11,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import scj28.java.atividadefinal.twittizador.enumeration.TipoDeOrdenacao;
-import scj28.java.atividadefinal.twittizador.factory.TwitterFactory;
 import scj28.java.atividadefinal.twittizador.vo.TweetVO;
 import twitter4j.Query;
 import twitter4j.QueryResult;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
 
 public class Organizer implements Actionable {
 
@@ -69,7 +69,7 @@ public class Organizer implements Actionable {
 	
 	private List<Status> buscaTweets(String hashTag, LocalDate dataInicio) throws TwitterException {
 		// Recupera a instancia da classe twitter já autenticada.
-		Twitter twitter = TwitterFactory.getInstance();
+		Twitter twitter = TwitterFactory.getSingleton();
 		LocalDate dataAnterior = dataInicio.minusDays(1);
 
 		Query query = new Query(hashTag);

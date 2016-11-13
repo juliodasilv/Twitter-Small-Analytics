@@ -2,12 +2,12 @@ package scj28.java.atividadefinal.twittizador.strategy;
 
 import java.time.LocalDate;
 
-import scj28.java.atividadefinal.twittizador.factory.TwitterFactory;
 import scj28.java.atividadefinal.twittizador.vo.TweetVO;
 import twitter4j.Query;
 import twitter4j.QueryResult;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
 
 public class Tweet implements Actionable {
 
@@ -24,7 +24,7 @@ public class Tweet implements Actionable {
 
 	private int buscaTweets(String hashTag, LocalDate dataInicio) throws TwitterException {
 		// Recupera a instancia da classe twitter já autenticada.
-		Twitter twitter = TwitterFactory.getInstance();
+		Twitter twitter = TwitterFactory.getSingleton();
 		LocalDate dataAnterior = dataInicio.minusDays(1);
 
 		Query query = new Query(hashTag);
