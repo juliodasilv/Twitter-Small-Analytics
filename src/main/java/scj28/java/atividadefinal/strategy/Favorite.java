@@ -1,8 +1,8 @@
-package scj28.java.atividadefinal.twittizador.strategy;
+package scj28.java.atividadefinal.strategy;
 
 import java.time.LocalDate;
 
-import scj28.java.atividadefinal.twittizador.vo.TweetVO;
+import scj28.java.atividadefinal.vo.TweetVO;
 import twitter4j.Query;
 import twitter4j.QueryResult;
 import twitter4j.Status;
@@ -10,6 +10,9 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
+/**
+ * Ação que busca a quantidade de favoritações por dia na última semana. 
+ */
 public class Favorite implements Actionable {
 
 	@Override

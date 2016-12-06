@@ -1,9 +1,15 @@
-package scj28.java.atividadefinal.twittizador.vo;
+package scj28.java.atividadefinal.vo;
 
 import java.time.LocalDate;
 
-import scj28.java.atividadefinal.twittizador.enumeration.TipoDeOrdenacao;
+import scj28.java.atividadefinal.enumeration.TipoDeOrdenacao;
 
+/**
+ * É apenas um POJO criado para trafegar dados necessarios
+ * para executar as ações.
+ * 
+ * @author cliente
+ */
 public class TweetVO {
 
 	private String hashTag;

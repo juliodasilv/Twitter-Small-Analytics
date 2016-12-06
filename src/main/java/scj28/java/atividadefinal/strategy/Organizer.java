@@ -1,4 +1,4 @@
-package scj28.java.atividadefinal.twittizador.strategy;
+package scj28.java.atividadefinal.strategy;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -10,8 +10,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import scj28.java.atividadefinal.twittizador.enumeration.TipoDeOrdenacao;
-import scj28.java.atividadefinal.twittizador.vo.TweetVO;
+import scj28.java.atividadefinal.enumeration.TipoDeOrdenacao;
+import scj28.java.atividadefinal.vo.TweetVO;
 import twitter4j.Query;
 import twitter4j.QueryResult;
 import twitter4j.Status;
@@ -19,6 +19,10 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
+/**
+ *  Ação que busca e imprime a os tweets ordenados pelo nome do autor
+ *
+ */
 public class Organizer implements Actionable {
 
 	@Override
