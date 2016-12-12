@@ -13,7 +13,7 @@ import scj28.java.atividadefinal.strategy.Tweeter;
  */
 public enum Action {
 
-	COUNT_TWEETER(new Tweeter()), 
+	TWEETER(new Tweeter()), 
 	COUNT_TWEETS(new Tweet()), 
 	COUNT_RETWEETS(new Retweet()), 
 	COUNT_FAVORITES(new Favorite()),

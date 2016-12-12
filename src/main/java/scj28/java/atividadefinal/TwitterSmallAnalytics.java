@@ -49,6 +49,7 @@ public class TwitterSmallAnalytics {
 		try {
 			tweetVO.setTipoDeOrdenacao(type);
 			action.get().action(tweetVO);
+			System.out.println("<===========================================>");
 		} catch (TwitterException e) {
 			e.printStackTrace();
 		}
