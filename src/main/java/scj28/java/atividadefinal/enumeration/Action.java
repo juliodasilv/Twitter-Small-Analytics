@@ -5,6 +5,7 @@ import scj28.java.atividadefinal.strategy.Favorite;
 import scj28.java.atividadefinal.strategy.Organizer;
 import scj28.java.atividadefinal.strategy.Retweet;
 import scj28.java.atividadefinal.strategy.Tweet;
+import scj28.java.atividadefinal.strategy.Tweeter;
 
 /**
  * Enum que define instancias da classe Actionable
@@ -12,6 +13,7 @@ import scj28.java.atividadefinal.strategy.Tweet;
  */
 public enum Action {
 
+	COUNT_TWEETER(new Tweeter()), 
 	COUNT_TWEETS(new Tweet()), 
 	COUNT_RETWEETS(new Retweet()), 
 	COUNT_FAVORITES(new Favorite()),

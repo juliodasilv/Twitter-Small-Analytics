@@ -3,6 +3,7 @@ package scj28.java.atividadefinal;
 import static scj28.java.atividadefinal.enumeration.Action.COUNT_FAVORITES;
 import static scj28.java.atividadefinal.enumeration.Action.COUNT_RETWEETS;
 import static scj28.java.atividadefinal.enumeration.Action.COUNT_TWEETS;
+import static scj28.java.atividadefinal.enumeration.Action.COUNT_TWEETER;
 import static scj28.java.atividadefinal.enumeration.Action.ORDER_BY;
 import static scj28.java.atividadefinal.enumeration.TipoDeOrdenacao.AUTHOR_NAME;
 import static scj28.java.atividadefinal.enumeration.TipoDeOrdenacao.DATE_TWEET;
@@ -35,6 +36,10 @@ public class TwitterSmallAnalyticsTestDrive {
 			// 5. Ordenar os tweets por data, e exibir a data mais recente e a
 			// menos recente.
 			analytics.executeAction(ORDER_BY, DATE_TWEET);
+			
+			// 6. Realiza um tweet referenciando o professor
+			analytics.executeAction(COUNT_TWEETER);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
