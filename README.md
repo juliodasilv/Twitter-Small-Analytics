@@ -1,4 +1,4 @@
-# Twitter Small Analytics
+﻿# Twitter Small Analytics
 Exemplo de utilização da API Twitter4J.
 
 ## Getting Started
@@ -26,14 +26,14 @@ a. Clique em ‘Next’;
 a. Selecione a pasta desejada;
 5. Clique em Finish.
 
-![alt tag](https://raw.githubusercontent.com/juliodasilv/twitter4J/master/files/project_installed.jpg)
+![alt tag](https://raw.githubusercontent.com/juliodasilv/Twitter-Small-Analytics/master/files/project_installed.PNG)
 
 ### Como Utilizar
 
 Para utilizar o Twitter Small Analytics é necessário configurar as chaves de acesso no arquivo
 twitter4j.properties.
 
-![alt tag](https://raw.githubusercontent.com/juliodasilv/twitter4J/master/files/config_properties.jpg)
+![alt tag](https://raw.githubusercontent.com/juliodasilv/Twitter-Small-Analytics/master/files/config_properties.PNG)
 
 Com a chave e o token de acesso configurados é necessário criar uma instância da classe
 TwitterSmallAnalytics.java passando como parâmetro a hashtag que desejar, para que a
@@ -46,20 +46,20 @@ O sistema foi desenvolvido utilizando uma integração com a API Twitter4J.
 O Twitter4J permite chamadas à API do Twitter por meio da linguagem Java facilitando a integração do seu aplicativo Java com os serviços do Twitter. O Twitter4J é uma biblioteca não-oficial.
 
 Características:
- Funciona em qualquer plataforma Java na versão 5 ou posterior;
- Plataformas Android e Google App Engine incluídas;
- Dependência zero: não requer jar’s adicionais;
- Suporte a OAuth integrado;
- Suporte a gzip;
- Compatível com a versão 1.1 do Twitter API.
+ - Funciona em qualquer plataforma Java na versão 5 ou posterior;
+ - Plataformas Android e Google App Engine incluídas;
+ - Dependência zero: não requer jar’s adicionais;
+ - Suporte a OAuth integrado;
+ - Suporte a gzip;
+ - Compatível com a versão 1.1 do Twitter API.
 
 Essa API viabiliza a integração com o Twitter e assim explorar suas diversas funcionalidades objetivando a coleta, busca e análise de dados, como também formas de interação automatizadas bastante eficazes.
 
 Essa API é composta por diversas bibliotecas nas quais utilizamos:
- twitter4j-async-4.0.4.jar;
- twitter4j-core-4.0.4.jar;
- twitter4j-media-support-4.0.4.jar;
- twitter4j-stream-4.0.4.jar.
+ - twitter4j-async-4.0.4.jar;
+ - twitter4j-core-4.0.4.jar;
+ - twitter4j-media-support-4.0.4.jar;
+ - twitter4j-stream-4.0.4.jar.
 
 Com a API Twitter4J é possível realizar qualquer tipo de operação que poderia ser efetuada manualmente pelo usuário no site do Twitter, dentre elas: criar tweets, buscar por assuntos com critérios específicos, enviar e visualizar mensagens diretas, entre outras funcionalidades.
 Estas funcionalidades permitirão automatizar diversas operações e tornar mais ágil a comunicação com os usuários do Twitter. Por exemplo, é possível desenvolver um sistema que identifique mensagens de reclamação, por meio da busca de temas específicos, e que automaticamente responda estas mensagens solicitando mais informações ou fornecendo algum tipo de feedback. Também é possível que seja estabelecido uma interface com os sistemas próprios da empresa para facilitar e tornar ainda mais ágil este tipo de interação.
@@ -68,46 +68,46 @@ Estas funcionalidades permitirão automatizar diversas operações e tornar mais
 
 Obs: Esta versão de saída foi executada no dia 07 de novembro de 2016 com a hashtag #java8.
 
-Data Inicial - 2016-12-05 | Data Final - 2016-12-12
-Quantidade por dia de tweets da última semana:
-2016-12-05 30 tweets.
-2016-12-06 15 tweets.
-2016-12-07 15 tweets.
-2016-12-08 30 tweets.
-2016-12-09 15 tweets.
-2016-12-10 15 tweets.
-2016-12-11 0 tweets.
-<===========================================>
-Quantidade por dia de retweets da última semana:
-2016-12-05 156 retweets.
-2016-12-06 12 retweets.
-2016-12-07 12 retweets.
-2016-12-08 42 retweets.
-2016-12-09 5 retweets.
-2016-12-10 4 retweets.
-2016-12-11 0 retweets.
-<===========================================>
-Quantidade por dia de favoritações da última semana:
-2016-12-05 57 favoritações.
-2016-12-06 8 favoritações.
-2016-12-07 8 favoritações.
-2016-12-08 14 favoritações.
-2016-12-09 8 favoritações.
-2016-12-10 4 favoritações.
-2016-12-11 0 favoritações.
-<===========================================>
-Primeiro Nome: @ADAMLDAVIS
-Ultimo Nome: @ZDAVEP
-<===========================================>
-Data mais antiga: 04/12/2016 08:30
-Data mais recente: 09/12/2016 21:43
-<===========================================>
-Tweet postado com sucesso! [12/12/2016 18:01:55 - Trabalho final de Fundamentos Java - 28SCJ - @michelpf].
-<===========================================>
+Data Inicial - 2016-12-05 | Data Final - 2016-12-12<br/>
+Quantidade por dia de tweets da última semana:<br/>
+2016-12-05 30 tweets.<br/>
+2016-12-06 15 tweets.<br/>
+2016-12-07 15 tweets.<br/>
+2016-12-08 30 tweets.<br/>
+2016-12-09 15 tweets.<br/>
+2016-12-10 15 tweets.<br/>
+2016-12-11 0 tweets.<br/>
+<===========================================><br/>
+Quantidade por dia de retweets da última semana:<br/>
+2016-12-05 156 retweets.<br/>
+2016-12-06 12 retweets.<br/>
+2016-12-07 12 retweets.<br/>
+2016-12-08 42 retweets.<br/>
+2016-12-09 5 retweets.<br/>
+2016-12-10 4 retweets.<br/>
+2016-12-11 0 retweets.<br/>
+<===========================================><br/>
+Quantidade por dia de favoritações da última semana:<br/>
+2016-12-05 57 favoritações.<br/>
+2016-12-06 8 favoritações.<br/>
+2016-12-07 8 favoritações.<br/>
+2016-12-08 14 favoritações.<br/>
+2016-12-09 8 favoritações.<br/>
+2016-12-10 4 favoritações.<br/>
+2016-12-11 0 favoritações.<br/>
+<===========================================><br/>
+Primeiro Nome: @ADAMLDAVIS<br/>
+Ultimo Nome: @ZDAVEP<br/>
+<===========================================><br/>
+Data mais antiga: 04/12/2016 08:30<br/>
+Data mais recente: 09/12/2016 21:43<br/>
+<===========================================><br/>
+Tweet postado com sucesso! [12/12/2016 18:01:55 - Trabalho final de Fundamentos Java - 28SCJ - @michelpf].<br/>
+<===========================================><br/>
 
 ## Diagrama de classes
 
-![alt tag](https://raw.githubusercontent.com/juliodasilv/twitter4J/master/files/config_properties.jpg)
+![alt tag](https://raw.githubusercontent.com/juliodasilv/Twitter-Small-Analytics/master/files/diagram.JPG)
 
 ## Resumo das tecnologias utilizadas
 
